@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import logo from "../src/assets/IDEA_logo.svg";
 
 export default function Navbar() {
   const role = localStorage.getItem("role");
@@ -18,7 +18,7 @@ export default function Navbar() {
         }}
       >
         <div className="d-flex ml-3 align-items-center">
-          <img src="../src/assets/IDEA_logo.svg" width={120} alt="IDEA" />
+          <img src={logo} width={120} alt="IDEA" />
         </div>
 
         <div className="d-flex align-items-center gap-3">
